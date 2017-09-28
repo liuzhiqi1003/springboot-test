@@ -17,6 +17,7 @@ public class TestController {
         Map<String, String> result = new HashMap<>();
         result.put("name", "zhangsan");
         result.put("say", "Hello");
+        result.put("age", "12");
         return result;
     }
 }
