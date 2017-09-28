@@ -18,6 +18,7 @@ public class TestController {
         result.put("name", "zhangsan");
         result.put("say", "Hello");
         result.put("age", "12");
+        result.put("address", "beijing");
         return result;
     }
 }
