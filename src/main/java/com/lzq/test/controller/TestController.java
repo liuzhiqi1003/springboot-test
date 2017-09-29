@@ -25,7 +25,7 @@ public class TestController {
         result.put("age", "12");
         result.put("address", "beijing");
         result.put("phone", "138XXXXXXXX");
-
+        log.info("invoke finish...");
         return result;
     }
 }
